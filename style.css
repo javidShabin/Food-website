@@ -93,13 +93,13 @@ header .icon i:hover{
     font-size: 70px;
 }
 .home .left p{
-    margin-top: 20px;
+    margin-top: 50px;
     width: 600px;
     text-align: justify;
     line-height: 22px;
 }
 .home .left .home_btn{
-    margin-top: 10px;
+    margin-top: 40px;
     background: #fac031;
     width: 150px;
     cursor: pointer;
