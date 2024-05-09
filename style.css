@@ -70,6 +70,19 @@ header .icon i:hover{
     color: #fac031;
 }
 
+/* Home section */
+.home{
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
 @media screen and (width < 700px) {
     header{
         height: 60px;
