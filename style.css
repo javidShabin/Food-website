@@ -130,6 +130,54 @@ header .icon i:hover{
     top: 20px;
     width: 700px;
 }
+
+/* About section */
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .container .left img{
+    width: 800px;
+    position: relative;
+    top: 60px;
+}
+.about .container .right h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+}
+.about .container .right h1 span{
+    color: #fac031;
+    margin-right: 15px;
+    font-family: mv boli;
+}
+.about .container .right h3{
+    font-size: 30px;
+    margin: 0 0 50px 0;
+}
+.about .container .right p{
+    width: 650px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 22px;
+}
+.about .about-btn{
+    background: #fac031;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 13px;
+    color: #fff;
+    position: relative;
+    top: 6rem;
+}
+
 @media screen and (width < 1170px){
     .home{
         padding-top: 15rem;
@@ -138,6 +186,8 @@ header .icon i:hover{
 
 @media screen and (width < 900px) {
     .home{
+        width: 100%;
+        height: 100vh;
         padding: 0;
         display: block;
         text-align: center;
@@ -148,8 +198,11 @@ header .icon i:hover{
         top: 7rem;
     }
     .home .left h1{
-        font-size: 50px;
+        font-size: 40px;
         font-weight: 600;
+    }
+    .home .left span{
+        font-size: 50px;
     }
     .home .left p{
         padding-top: 30px;
@@ -166,8 +219,42 @@ header .icon i:hover{
     }
     .home .right img{
         max-width: 650px;
-        width: 500px;
-        max-height: 500px;
+        width: 300px;
+    }
+
+    /* About section */
+    .about .container{
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    .about .container .left img{
+        max-width: 650px;
+        width: 300px;
+    }
+    .about .container .right h1{
+        position: relative;
+        top: 20px;
+        font-size: 35px;
+    }
+    .about .container .right h3{
+        position: relative;
+        top: 20px;
+        font-size: 20px;
+    }
+    .about .container .right p{
+        position: relative;
+        top: 20px;
+        text-align: justify;
+        margin: auto;
+        line-height: 22px;
+        padding: 0;
+    }
+    .about .right .about-btn{
+        background: #fac031;
+        padding: 10px 21px;
+        border-radius: 13px;
+        color: #fff;
     }
 }
 
@@ -221,6 +308,7 @@ header .icon i:hover{
 
     .home{
         padding: 0;
+
     }
     .home .left h1{
         font-size: 45px;
@@ -245,5 +333,94 @@ header .icon i:hover{
     .home .right{
         display: none;
     }
+
+    /* About section */
+    .about{
+        width: 100%;
+    }
+    .about .container{
+        display: block;
+        text-align: center;
+    }
+    .about .container .left img{
+        width: 200px;
+        position: relative;
+        top: -40px;
+    }
+    .about .container .right h1{
+        position: relative;
+        top: -50px;
+        font-size: 45px;
+        padding: 0;
+    }
+    .about .container .right h3{
+        position: relative;
+        top: -40px;
+        font-size: 20px;
+    }
+    .about .container .right p{
+        position: relative;
+        top: -60px;
+        width: 300px;
+        text-align: justify;
+        margin: auto;
+        line-height: 22px;
+        padding: 0;
+    }
+    .about .right .about-btn{
+        position: relative;
+        top: -40px;
+        background: #fac031;
+        padding: 10px 21px;
+        border-radius: 13px;
+        color: #fff;
+    }
 }
 
+/* 
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about .container .left img{
+    width: 800px;
+    position: relative;
+    top: 60px;
+}
+.about .container .right h1{
+    font-size: 55px;
+    position: relative;
+    bottom: 50px;
+}
+.about .container .right h1 span{
+    color: #fac031;
+    margin-right: 15px;
+    font-family: mv boli;
+}
+.about .container .right h3{
+    font-size: 30px;
+    margin: 0 0 50px 0;
+}
+.about .container .right p{
+    width: 650px;
+    text-align: justify;
+    margin-right: 30px;
+    line-height: 22px;
+}
+.about .about-btn{
+    background: #fac031;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 13px;
+    color: #fff;
+    position: relative;
+    top: 8rem;
+}
+ */
