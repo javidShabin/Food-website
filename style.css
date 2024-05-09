@@ -73,14 +73,103 @@ header .icon i:hover{
 /* Home section */
 .home{
     width: 100%;
-    height: calc(100vh - 80px);
+    height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
+    padding: 0 7rem;
+}
+.home .left{
+    margin-top: 20px;
+}
+.home .left h1{
+    font-size: 60px;
+}
+.home .left span{
+    margin-left: 15px;
+    color: #fac031;
+    font-family: mv boli;
+    line-height: 22px;
+    font-size: 70px;
+}
+.home .left p{
+    margin-top: 20px;
+    width: 600px;
+    text-align: justify;
+    line-height: 22px;
+}
+.home .left .home_btn{
+    margin-top: 10px;
+    background: #fac031;
+    width: 150px;
+    cursor: pointer;
+    padding: 12px 25px;
+    border-radius: 13px;
+}
+.home .left .home_btn a{
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+}
+.home .left .home_bt i{
+    color: #fff;
+    transition: 0.5s;
+}
+.home .left .home_btn:hover i{
+    transform: translateX(7px);
 }
 
+.home .right{
+    padding: 0;
 
+}
 
+.home .right img{
+    margin-top: 20px;
+    position: relative;
+    top: 20px;
+    width: 700px;
+}
+@media screen and (width < 1170px){
+    .home{
+        padding-top: 15rem;
+    }
+}
+
+@media screen and (width < 900px) {
+    .home{
+        padding: 0;
+        display: block;
+        text-align: center;
+    }
+    .home .left{
+        margin: 0;
+        position: relative;
+        top: 7rem;
+    }
+    .home .left h1{
+        font-size: 50px;
+        font-weight: 600;
+    }
+    .home .left p{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: auto;
+    }
+    .home .left .home_btn{
+        margin: auto;
+    }
+
+    .home .right{
+        position: relative;
+        top: 6rem;
+    }
+    .home .right img{
+        max-width: 650px;
+        width: 500px;
+        max-height: 500px;
+    }
+}
 
 
 @media screen and (width < 700px) {
@@ -127,4 +216,34 @@ header .icon i:hover{
     header .icon i:nth-child(2){
         display: none;
     }
+
+    /* home section */
+
+    .home{
+        padding: 0;
+    }
+    .home .left h1{
+        font-size: 45px;
+        font-weight: 600;
+    }
+    .home .left span{
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .home .left p{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width: 300px;
+        margin: auto;
+    }
+    .home .left .home_btn{
+        margin-top: 10px;
+        margin: auto;
+    }
+
+
+    .home .right{
+        display: none;
+    }
 }
+
